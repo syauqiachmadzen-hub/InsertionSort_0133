@@ -63,3 +63,11 @@ void display(){
     }
     cout << endl;
 }
+
+int main(){
+    input();
+    indertionsort();
+    display();
+    system("pause");
+    
+}

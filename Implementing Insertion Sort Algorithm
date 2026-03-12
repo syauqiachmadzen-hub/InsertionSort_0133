@@ -1,4 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];
+int arr[20];       //membuat panjang data 20
+int n;             //membuat variable input n
+
+void input (){ //procedure input
+    while (true){
+        cout << "masukan jumlah data pada array : ";
+        cin >> n;
+
+        if  (n <= 20){
+            break;
+        }
+        else{
+            cout << "\nArray Tidak Boleh Lebih dari 20\n";
+            
+        } 
+    }
+}
